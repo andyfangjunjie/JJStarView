@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095822E91F2AE4150054FA2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095822E81F2AE4150054FA2B /* main.m */; };
+		095822EC1F2AE4150054FA2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095822EB1F2AE4150054FA2B /* AppDelegate.m */; };
+		095822EF1F2AE4150054FA2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095822EE1F2AE4150054FA2B /* ViewController.m */; };
+		095822F21F2AE4150054FA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095822F01F2AE4150054FA2B /* Main.storyboard */; };
+		095822F41F2AE4150054FA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095822F31F2AE4150054FA2B /* Assets.xcassets */; };
+		095822F71F2AE4150054FA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095822F51F2AE4150054FA2B /* LaunchScreen.storyboard */; };
+		095823051F2AFDD20054FA2B /* JJStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 095823041F2AFDD20054FA2B /* JJStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		095822E41F2AE4150054FA2B /* JJStarViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJStarViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095822E81F2AE4150054FA2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		095822EA1F2AE4150054FA2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		095822EB1F2AE4150054FA2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		095822ED1F2AE4150054FA2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		095822EE1F2AE4150054FA2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		095822F11F2AE4150054FA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		095822F31F2AE4150054FA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		095822F61F2AE4150054FA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		095822F81F2AE4150054FA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095823031F2AFDD20054FA2B /* JJStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJStarView.h; sourceTree = "<group>"; };
+		095823041F2AFDD20054FA2B /* JJStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJStarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095822E11F2AE4150054FA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095822DB1F2AE4150054FA2B = {
+			isa = PBXGroup;
+			children = (
+				095822E61F2AE4150054FA2B /* JJStarViewDemo */,
+				095822E51F2AE4150054FA2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095822E51F2AE4150054FA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095822E41F2AE4150054FA2B /* JJStarViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095822E61F2AE4150054FA2B /* JJStarViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				095823021F2AFDD20054FA2B /* JJStarView */,
+				095822EA1F2AE4150054FA2B /* AppDelegate.h */,
+				095822EB1F2AE4150054FA2B /* AppDelegate.m */,
+				095822ED1F2AE4150054FA2B /* ViewController.h */,
+				095822EE1F2AE4150054FA2B /* ViewController.m */,
+				095822F01F2AE4150054FA2B /* Main.storyboard */,
+				095822F31F2AE4150054FA2B /* Assets.xcassets */,
+				095822F51F2AE4150054FA2B /* LaunchScreen.storyboard */,
+				095822F81F2AE4150054FA2B /* Info.plist */,
+				095822E71F2AE4150054FA2B /* Supporting Files */,
+			);
+			path = JJStarViewDemo;
+			sourceTree = "<group>";
+		};
+		095822E71F2AE4150054FA2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095822E81F2AE4150054FA2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		095823021F2AFDD20054FA2B /* JJStarView */ = {
+			isa = PBXGroup;
+			children = (
+				095823031F2AFDD20054FA2B /* JJStarView.h */,
+				095823041F2AFDD20054FA2B /* JJStarView.m */,
+			);
+			name = JJStarView;
+			path = ../../JJStarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095822E31F2AE4150054FA2B /* JJStarViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095822FB1F2AE4150054FA2B /* Build configuration list for PBXNativeTarget "JJStarViewDemo" */;
+			buildPhases = (
+				095822E01F2AE4150054FA2B /* Sources */,
+				095822E11F2AE4150054FA2B /* Frameworks */,
+				095822E21F2AE4150054FA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJStarViewDemo;
+			productName = JJStarViewDemo;
+			productReference = 095822E41F2AE4150054FA2B /* JJStarViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095822DC1F2AE4150054FA2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "房俊杰";
+				TargetAttributes = {
+					095822E31F2AE4150054FA2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 095822DF1F2AE4150054FA2B /* Build configuration list for PBXProject "JJStarViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095822DB1F2AE4150054FA2B;
+			productRefGroup = 095822E51F2AE4150054FA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095822E31F2AE4150054FA2B /* JJStarViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095822E21F2AE4150054FA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095822F71F2AE4150054FA2B /* LaunchScreen.storyboard in Resources */,
+				095822F41F2AE4150054FA2B /* Assets.xcassets in Resources */,
+				095822F21F2AE4150054FA2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095822E01F2AE4150054FA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095823051F2AFDD20054FA2B /* JJStarView.m in Sources */,
+				095822EF1F2AE4150054FA2B /* ViewController.m in Sources */,
+				095822EC1F2AE4150054FA2B /* AppDelegate.m in Sources */,
+				095822E91F2AE4150054FA2B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		095822F01F2AE4150054FA2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095822F11F2AE4150054FA2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		095822F51F2AE4150054FA2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095822F61F2AE4150054FA2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		095822F91F2AE4150054FA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		095822FA1F2AE4150054FA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095822FC1F2AE4150054FA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJStarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.common.JJStarViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		095822FD1F2AE4150054FA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJStarViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.common.JJStarViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095822DF1F2AE4150054FA2B /* Build configuration list for PBXProject "JJStarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095822F91F2AE4150054FA2B /* Debug */,
+				095822FA1F2AE4150054FA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095822FB1F2AE4150054FA2B /* Build configuration list for PBXNativeTarget "JJStarViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095822FC1F2AE4150054FA2B /* Debug */,
+				095822FD1F2AE4150054FA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095822DC1F2AE4150054FA2B /* Project object */;
+}
