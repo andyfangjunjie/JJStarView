@@ -33,6 +33,8 @@
     
     if (self.starViewCount == 0) return;
     
+    if (self.subviews.count < self.starViewCount) return;
+    
     CGFloat margin = (CGRectGetWidth(self.frame) - CGRectGetHeight(self.frame) * self.starViewCount) / (self.starViewCount - 1);
 
     if (self.starViewType == JJStarViewTypeShow) {
