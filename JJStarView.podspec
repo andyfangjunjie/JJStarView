@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'JJStarView'
-s.version = '0.0.2'
+s.version = '0.0.3'
 s.platform = :ios, '7.0'
 s.summary = '一个很好用banner滚动控件'
 s.homepage = 'https://github.com/andyfangjunjie/JJStarView'

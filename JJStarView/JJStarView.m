@@ -26,17 +26,17 @@
 }
 - (void)awakeFromNib {
     [super awakeFromNib];
+    
     [self setup];
 }
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
     if (self.starViewCount == 0) return;
     
     if (self.subviews.count < self.starViewCount) return;
     
     CGFloat margin = (CGRectGetWidth(self.frame) - CGRectGetHeight(self.frame) * self.starViewCount) / (self.starViewCount - 1);
-
+    
     if (self.starViewType == JJStarViewTypeShow) {
         for (NSInteger i = 0;i < self.starViewCount;i++) {
             UIImageView *imageView = (UIImageView *)self.subviews[i];
@@ -77,9 +77,7 @@
 }
 #pragma mark - 初始化
 - (void)setup {
-    _starViewType = JJStarViewTypeShow;
     _starViewCount = 5;
-    _starViewScore = 0;
     [self layout];
 }
 - (void)layout {
@@ -106,6 +104,8 @@
             [self addSubview:button];
         }
     }
+    [self setNeedsLayout];
+    [self layoutIfNeeded];
 }
 - (void)buttonClick:(UIButton *)sender {
     NSInteger score = [self.subviews indexOfObject:sender] + 1;
